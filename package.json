@@ -9,6 +9,7 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
+  "repository": "https://github.com/ForJing/language-a16",
   "keywords": [],
   "author": "",
   "license": "ISC",
