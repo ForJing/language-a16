@@ -1,0 +1,18 @@
+{
+  "name": "language-a16",
+  "version": "0.0.1",
+  "description": "a16 grammar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apm": "^1.0.2"
+  }
+}

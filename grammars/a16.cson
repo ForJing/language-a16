@@ -1,0 +1,13 @@
+name: 'A16'
+scopeName: 'a16'
+type: 'tree-sitter'
+parser: 'tree-sitter-a16'
+
+fileTypes: ["a16"]
+
+
+scopes:
+  'operator': 'entity.name.function'
+
+comments:
+  start: ';'
