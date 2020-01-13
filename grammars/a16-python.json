@@ -1,0 +1,16 @@
+{
+	"scopeName": "source.a16",
+
+	"name": "a16",
+
+	"fileTypes": ["python", "py"],
+
+	"patterns": [
+
+		{
+			"include": "source.a16"
+		}
+	]
+} 
+
+

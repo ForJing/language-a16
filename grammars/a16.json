@@ -1,0 +1,89 @@
+{
+	"scopeName": "source.a16",
+	"name": "a16",
+	"fileTypes": ["a16"],
+
+	"patterns": [
+		{ "include": "#expressions" },
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#addresses"
+		}
+	],
+	"repository": {
+		"expressions": {
+			"patterns": [
+				{
+					"include": "#pseudo"
+				},
+				{
+					"include": "#operators"
+				},
+				{
+					"include": "#strings"
+				},
+				{
+					"include": "#addresses"
+				},
+				{
+					"include": "#registers"
+				},
+				{
+					"include": "#numbers"
+				}
+			]
+		},
+
+		"operators": {
+			"patterns": [
+				{
+					"name": "entity.name.function.a16",
+					"match": "\\b(set|load|add|save|compare|jump_if_great|jump|save_from_register|set2|load2|add2|save2|subtract2|load_from_register|load_from_register2|save_from_register2|jump_from_register|shift_right|and|halt)\\b"
+				}
+			]
+		},
+		"registers": {
+			"patterns": [
+				{
+					"name": "keyword.others.a16",
+					"match": "\\b(a1|a2|a3|c1|f1|pa)\\b"
+				}
+			]
+		},
+		"addresses": {
+			"patterns": [
+				{
+					"name": "variable.parameter.a16",
+					"match": "@\\w+"
+				}
+			]
+		},
+		"pseudo": {
+			"patterns": [
+				{
+					"name": "entity.name.function.a16",
+					"match": "\\.\\w+"
+				}
+			]
+		},
+		"numbers": {
+			"patterns": [
+				{
+					"name": "constant.numeric.a16",
+					"match": "\\d+"
+				}
+			]
+		},
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment.a16",
+					"begin": ";",
+					"end": "$"
+				} 
+			]
+		}
+	}
+}
