@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "a16 syntax highlight for Atom",
   "keywords": [],
-  "repository": "https://github.com/atom/language-a16",
+  "repository": "https://github.com/ForJing/language-a16",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
