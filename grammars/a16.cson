@@ -38,6 +38,14 @@ patterns: [
 	}
 ],
 repository: 
+	comments: 
+		patterns: [
+			{
+				begin: ";",
+				end:"$"
+				name: "comment.a16",
+			}
+		]
 	operators:
 		patterns: [
 			{
