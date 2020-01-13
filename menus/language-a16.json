@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle language-a16",
+        "command": "language-a16:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "language-a16",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "language-a16:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
